@@ -1,0 +1,53 @@
+{
+  "root": true,
+  "env": { "browser": true, "es2020": true },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:promise/recommended",
+    "plugin:regexp/recommended",
+    "plugin:security/recommended-legacy",
+    "plugin:unicorn/recommended",
+    "plugin:canonical/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react-refresh"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "canonical/import-specifier-newline": "off",
+    "canonical/destructuring-property-newline": "off",
+    "canonical/export-specifier-newline": "off",
+    "unicorn/filename-case": "off",
+    "@typescript-eslint/no-shadow": "warn",
+    "react/jsx-sort-props": "warn",
+    "sort-imports": [
+      "warn",
+      { "ignoreDeclarationSort": true }
+    ],
+    "import/order": [
+      "warn",
+      {
+        "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+        "alphabetize": { "order": "asc" }
+      }
+    ],
+    "react-refresh/only-export-components": [
+      "warn",
+      { "allowConstantExport": true }
+    ],
+    "prettier/prettier": [
+      "warn",
+      { "plugins": ["prettier-plugin-tailwindcss"] }
+    ]
+  }
+}
