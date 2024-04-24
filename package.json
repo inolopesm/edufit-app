@@ -10,10 +10,13 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "@edufit/ui": "github:inolopesm/edufit-ui#v1.1.0",
+    "@edufit/ui": "github:inolopesm/edufit-ui#v1.2.1",
+    "@tabler/icons-react": "^3.2.0",
+    "imask": "^7.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "zod": "^3.23.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

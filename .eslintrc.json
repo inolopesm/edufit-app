@@ -29,6 +29,9 @@
     "canonical/export-specifier-newline": "off",
     "unicorn/filename-case": "off",
     "@typescript-eslint/no-shadow": "warn",
+    "unicorn/no-document-cookie": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/no-null": "off",
     "react/jsx-sort-props": "warn",
     "sort-imports": [
       "warn",
