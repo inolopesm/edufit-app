@@ -14,6 +14,7 @@
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
+    "plugin:@tanstack/eslint-plugin-query/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -28,6 +29,7 @@
     "canonical/destructuring-property-newline": "off",
     "canonical/export-specifier-newline": "off",
     "unicorn/filename-case": "off",
+    "unicorn/no-null": "off",
     "@typescript-eslint/no-shadow": "warn",
     "react/jsx-sort-props": "warn",
     "sort-imports": [
